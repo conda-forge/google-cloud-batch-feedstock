@@ -1,5 +1,5 @@
 {% set name = "google-cloud-batch" %}
-{% set version = "0.17.20" %}
+{% set version = "0.17.21" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-batch-{{ version }}.tar.gz
-  sha256: 7fca703aa0ed48d12abd6acc55d6fa566ad024b156c34a3da919afe1ded2a589
+  sha256: ead5fd10553280a2fa9a05d892ff0446198ba381ad2895c88a80803e34e38a0a
 
 build:
   noarch: python
