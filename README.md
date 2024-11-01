@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Batch API client library
 
-Development: https://github.com/googleapis/google-cloud-python
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-batch
 
 Documentation: https://googleapis.dev/python/batch/latest/index.html
 
