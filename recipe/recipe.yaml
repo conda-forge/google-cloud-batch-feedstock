@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-batch
-  version: "0.22.1"
+  version: "0.22.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_batch-${{ version }}.tar.gz
-  sha256: 0eb140174673983f7bd1912770649c0b926a01a6124ad62e9fc367de36d378a3
+  sha256: 4711998f0f25c1379bb7eb3bea953df311b07aa06ea2fc6bc4d72ff96a6ed953
 
 build:
   number: 0
